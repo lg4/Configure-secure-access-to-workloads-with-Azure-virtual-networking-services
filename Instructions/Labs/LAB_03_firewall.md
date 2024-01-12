@@ -20,13 +20,13 @@ Azure Firewall policy is a top-level resource that contains security and operati
 
 ### Skilling tasks
 - Create an Azure Firewall.
-- Create and configure a firewall policy
+- Create and configure a firewall policy.
 - Create an application rule collection.
 - Create a network rule collection.
   
 ## Exercise instructions
 
-### Create  Azure Firewall subnet in our existing virtual network
+### Create  Azure Firewall subnet in our existing Virtual network
 
 1. In the search box at the top of the portal, enter **Virtual networks**. Select **Virtual networks** in the search results.
 
@@ -81,7 +81,7 @@ Azure Firewall policy is a top-level resource that contains security and operati
 
 1. Select **Application rules**.
 
-1. Se;ect on **"+ Application rule collection"**.
+1. Select on **"+ Application rule collection"**.
 
 1. Use the values in the following table. For any property that is not specified, use the default value.
 
@@ -108,7 +108,7 @@ Azure Firewall policy is a top-level resource that contains security and operati
 
 > **Note**: The **AllowAzurePipelines** rule allows the web application to access Azure Pipelines. The rule allows the web application to access the Azure DevOps service and the Azure website.
 
-1.  Create a **network rule collection** that contains a single IP Address rule by using the values in the following table. For any property that is not specified, use the default value.
+1. Create a **network rule collection** that contains a single IP Address rule by using the values in the following table. For any property that is not specified, use the default value.
 
 1. Select **Network rules**.
 
@@ -141,7 +141,7 @@ Azure Firewall policy is a top-level resource that contains security and operati
 
 1. To verify that the Azure Firewall and Firewall Policy provisioning state show **Succeeded**.
 
-1.In the search box at the top of the portal, enter **Firewall**. Select **Firewall** in the search results.
+1. In the search box at the top of the portal, enter **Firewall**. Select **Firewall** in the search results.
 
 1. Select **app-vnet-firewall**.
 
